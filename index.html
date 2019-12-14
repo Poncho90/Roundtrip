@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/css/main.css">
+
+    <title>RoundTrip Explore</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-menu sticky-top">
+        <div class="container" id="header">
+
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="assets/logo.png" alt="logo RoundTrip">
+                </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto ">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        🌐 Idioma
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Español (MX)</a>
+                      <a class="dropdown-item" href="#">Ingles (EU)</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Frances</a>
+                      <a class="dropdown-item" href="#"> · · ·</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        💱 Moneda
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">MXN</a>
+                      <a class="dropdown-item" href="#">USD</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">EUR</a>
+                      <a class="dropdown-item" href="#">AUD</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-weight-bold" href="#">Sign up <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link font-weight-bold" href="#">Log in</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link font-weight-light" href="landing.html">Help</a>
+                  </li>
+              </ul>
+              
+            </div>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="assets/carousel1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/carousel2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/carousel3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <div class="overlay">
+                <div id="overlay-content" class="container align-items-end">
+                    <div class="row text-center mb-3" >
+                        <div class="col col-md-6 offset-md-3 d-none d-md-block ">
+                            <img src="assets/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                            <h2 class="headline">Conecta con +Viajeros</h2>
+                        </div>
+                    </div>
+                    <div class="row d-none d-md-block ">
+                        <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                            <p><span class="font-weight-bold main-color">1,200</span>  Experiencias · <span class="font-weight-bold main-color">560</span> Viajeros Registrados · <span class="font-weight-bold main-color">67</span> Guias Locales</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12
+                        
+                        col col-md-8 offset-md-1 col-lg-6 offset-lg-2 pr-md-0">
+                            <form>
+                                <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 text-center
+                        
+                        col-md-2 col-lg-2 pl-md-0">
+                            <button type="submit" class="btn btn-success btn-block ">Buscar</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mt-1 mt-md-0">
+                            <button type="submit" class="btn btn-light btn-block">Crear Actividad</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- <section class="explore-scroll">
+        <div class="container">
+            <h2 class="mt-3">Explora</h2>
+            <div class="row">
+
+                <div class="scrollcards">
+                    <div class="card-main">
+                        <div class="card">
+                            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="100%x180"  data-holder-rendered="true">
+                            <div class="card-block">
+                                <h4 class="card-title">Card Flip</h4>
+                                <p class="card-text">Detalles</p>
+                                   
+                            </div>
+                        </div>
+                    </div>         
+                    <div class="card-main">
+                        <div class="card">
+                            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="100%x180"  data-holder-rendered="true">
+                            <div class="card-block">
+                                <h4 class="card-title">Card Flip</h4>
+                                <p class="card-text">Detalles</p>
+                                   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-main">
+                        <div class="card">
+                            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="100%x180"  data-holder-rendered="true">
+                            <div class="card-block">
+                                <h4 class="card-title">Card Flip</h4>
+                                <p class="card-text">Detalles</p>
+                                   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-main">
+                        <div class="card">
+                            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="100%x180"  data-holder-rendered="true">
+                            <div class="card-block">
+                                <h4 class="card-title">Card Flip</h4>
+                                <p class="card-text">Detalles</p>
+                                   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-main">
+                        <div class="card">
+                            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="100%x180"  data-holder-rendered="true">
+                            <div class="card-block">
+                                <h4 class="card-title">Card Flip</h4>
+                                <p class="card-text">Detalles</p>
+                                   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-main">
+                        <div class="card">
+                            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="100%x180"  data-holder-rendered="true">
+                            <div class="card-block">
+                                <h4 class="card-title">Card Flip</h4>
+                                <p class="card-text">Detalles</p>
+                                   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    
+    <section class="explore-grid">
+        <div class="container">
+            <h2 class="pt-4">Explora</h2>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col"><h3>Cerca de Ti</h3></div>
+            </div>
+
+            <div class="row card-deck">
+                <div class="col-6 col-md-3 p-0">
+                    <div class="card card-sm-6">
+                        <img src="assets/cards/card-a-cdmx.jpg" class="card-img-top" alt="cdmx1">
+                        <div class="card-body p-0">
+                            <p class="card-text mb-0"><small class="text-muted">FIESTA  ·  CDMX</small></p>
+                            <h5 class="card-title mb-1">Recorrido por bares de CDMX</h5>
+                            <p class="card-text mb-0">lugares disp: 3 / 10 </p>
+                            <p class="card-text mb-0">Gratis </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-3 p-0">
+                    <div class="card card-sm-6">
+                        <img src="assets/cards/card-a-cdmx2.jpg" class="card-img-top" alt="cdmx1">
+                        <div class="card-body p-0">
+                            <p class="card-text mb-0"><small class="text-muted">FIESTA  ·  CDMX</small></p>
+                            <h5 class="card-title mb-1">Compartir viaje y trajinera en Xochimilco</h5>
+                            <p class="card-text mb-0">lugares disp: 12 / 25 </p>
+                            <p class="card-text mb-0">$200 por persona </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 p-0">
+                    <div class="card card-sm-6">
+                        <img src="assets/cards/card-a-cdmx3.jpg" class="card-img-top" alt="cdmx1">
+                        <div class="card-body p-0">
+                            <p class="card-text mb-0"><small class="text-muted">Cultural  ·  EDO MEX</small></p>
+                            <h5 class="card-title mb-1">Visita a Piramides de Teotihuacan</h5>
+                            <p class="card-text mb-0">lugares disp: 2 / 8 </p>
+                            <p class="card-text mb-0">$100 por persona </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 p-0">
+                    <div class="card card-sm-6">
+                        <img src="assets/cards/card-a-valledebravo.jpg" class="card-img-top" alt="cdmx4">
+                        <div class="card-body p-0">
+                            <p class="card-text mb-0"><small class="text-muted">DEPORTE  ·  VALLE DE BRAVO</small></p>
+                            <h5 class="card-title mb-1">Compartir lancha para Wakeboarding</h5>
+                            <p class="card-text mb-0">lugares disp: 4 / 10 </p>
+                            <p class="card-text mb-0">$$$ por definir </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col"><h3>Recomendadas</h3></div>
+            </div>
+
+            <div class="row card-deck">
+                <div class="col-6 col-md-3 p-0">
+                    <div class="card card-sm-6">
+                        <img src="assets/cards/card-a-cdmx.jpg" class="card-img-top" alt="cdmx1">
+                        <div class="card-body p-0">
+                            <p class="card-text mb-0"><small class="text-muted">FIESTA  ·  CDMX</small></p>
+                            <h5 class="card-title mb-1">Recorrido por bares de CDMX</h5>
+                            <p class="card-text mb-0">lugares disp: 3 / 10 </p>
+                            <p class="card-text mb-0">Gratis </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-3 p-0">
+                    <div class="card card-sm-6">
+                        <img src="assets/cards/card-a-cdmx2.jpg" class="card-img-top" alt="cdmx1">
+                        <div class="card-body p-0">
+                            <p class="card-text mb-0"><small class="text-muted">FIESTA  ·  CDMX</small></p>
+                            <h5 class="card-title mb-1">Compartir viaje y trajinera en Xochimilco</h5>
+                            <p class="card-text mb-0">lugares disp: 12 / 25 </p>
+                            <p class="card-text mb-0">$200 por persona </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 p-0">
+                    <div class="card card-sm-6">
+                        <img src="assets/cards/card-a-cdmx3.jpg" class="card-img-top" alt="cdmx1">
+                        <div class="card-body p-0">
+                            <p class="card-text mb-0"><small class="text-muted">Cultural  ·  EDO MEX</small></p>
+                            <h5 class="card-title mb-1">Visita a Piramides de Teotihuacan</h5>
+                            <p class="card-text mb-0">lugares disp: 2 / 8 </p>
+                            <p class="card-text mb-0">$100 por persona </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 p-0">
+                    <div class="card card-sm-6">
+                        <img src="assets/cards/card-a-valledebravo.jpg" class="card-img-top" alt="cdmx4">
+                        <div class="card-body p-0">
+                            <p class="card-text mb-0"><small class="text-muted">DEPORTE  ·  VALLE DE BRAVO</small></p>
+                            <h5 class="card-title mb-1">Compartir lancha para Wakeboarding</h5>
+                            <p class="card-text mb-0">lugares disp: 4 / 10 </p>
+                            <p class="card-text mb-0">$$$ por definir </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col"><h3>Populares</h3></div>
+            </div>
+
+            <div class="row card-deck">
+                <div class="col-6 col-md-3 p-0">
+                    <div class="card card-sm-6">
+                        <img src="assets/cards/card-a-cdmx.jpg" class="card-img-top" alt="cdmx1">
+                        <div class="card-body p-0">
+                            <p class="card-text mb-0"><small class="text-muted">FIESTA  ·  CDMX</small></p>
+                            <h5 class="card-title mb-1">Recorrido por bares de CDMX</h5>
+                            <p class="card-text mb-0">lugares disp: 3 / 10 </p>
+                            <p class="card-text mb-0">Gratis </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-3 p-0">
+                    <div class="card card-sm-6">
+                        <img src="assets/cards/card-a-cdmx2.jpg" class="card-img-top" alt="cdmx1">
+                        <div class="card-body p-0">
+                            <p class="card-text mb-0"><small class="text-muted">FIESTA  ·  CDMX</small></p>
+                            <h5 class="card-title mb-1">Compartir viaje y trajinera en Xochimilco</h5>
+                            <p class="card-text mb-0">lugares disp: 12 / 25 </p>
+                            <p class="card-text mb-0">$200 por persona </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 p-0">
+                    <div class="card card-sm-6">
+                        <img src="assets/cards/card-a-cdmx3.jpg" class="card-img-top" alt="cdmx1">
+                        <div class="card-body p-0">
+                            <p class="card-text mb-0"><small class="text-muted">Cultural  ·  EDO MEX</small></p>
+                            <h5 class="card-title mb-1">Visita a Piramides de Teotihuacan</h5>
+                            <p class="card-text mb-0">lugares disp: 2 / 8 </p>
+                            <p class="card-text mb-0">$100 por persona </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 p-0">
+                    <div class="card card-sm-6">
+                        <img src="assets/cards/card-a-valledebravo.jpg" class="card-img-top" alt="cdmx4">
+                        <div class="card-body p-0">
+                            <p class="card-text mb-0"><small class="text-muted">DEPORTE  ·  VALLE DE BRAVO</small></p>
+                            <h5 class="card-title mb-1">Compartir lancha para Wakeboarding</h5>
+                            <p class="card-text mb-0">lugares disp: 4 / 10 </p>
+                            <p class="card-text mb-0">$$$ por definir </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="mt-4">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Contáctanos</h5>
+                    <hr class="light">
+                    <p>+44 7507 612361</p>
+                    <p>hello@roundtrip.com</p>
+                    <p>Hamburgo 26, col. Juárez</p>
+                    <p>CDMX, México</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Legales</h5>
+                    <hr class="light">
+                    <p>Términos y Condiciones</p>
+                    <p>Política de Privacidad</p>
+                    <p>Política de Reservación de Tours</p>
+
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Comunidad</h5>
+                    <hr class="light">
+                    <p>Blog</p>
+                    <p>Preguntas Frecuentes</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy;roundtrip.com</h5>
+                </div>
+    </footer>
+    <div class="modal fade" id="modalogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img src="img/logo.png" alt="RoundTrip" width="150px" height="35px">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                        <div class="input-group-text">@</div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck">
+                        <label class="form-check-label" for="exampleCheck1">Recordar usuario</label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary">Iniciar sesion</button>
+            </div>
+        </div>
+        </div>
+    </div>
+<!-- /Modal Login -->
+
+    <div class="modal fade" id="modalregistro" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="img/logo.png" alt="RoundTrip" width="150px" height="35px">
+                    <!-- <h6 class="modal-title" id="exampleModalCenterTitle">Registra para unirte a grupos </br>y crear tus propias actividades</h6> -->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                                    <!-- <label for="validationServerUsername">Username</label> -->
+                                    <label for="validationServerUsername">Username</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                                        </div>
+                                            <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required>
+                                        <div class="invalid-feedback">
+                                        Please choose a username.
+                                        </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li style="color:#71a95a;">One lowercase</li>
+                                        <li style="color:#71a95a;">One uppercase</li>
+                                        <li style="color: #71a95a;">One number</li>
+                                        <!-- <li>One number</li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button href="#modalconfirm" type="button" class="btn btn-primary" data-toggle="modal">Siguiente</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  /Modal  (paso 1 del registro)-->
+    <!-- Modal 2    -->
+    <div class="modal fade" id="modalconfirm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="img/logo.png" alt="RoundTrip" width="150px" height="35px">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <label for="exampleFormControlSelect1">Selecciona una opcion</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Pasaporte</option>
+                        <option>Cedula profesional</option>
+                        <option>INE</option>
+                        <option>Licencia</option>
+                        <option>Documento migratorio</option>
+                    </select>
+                    <div class="col-12">
+                        <i class="fas fa-camera-retro"style= "font-size: 36px;" ></i>
+                        <i class="fas fa-upload" style= "font-size: 36px;"></i>
+                    </div>
+                    <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck    1">
+                            <label class="form-check-label" for="exampleCheck1">He leído terminos y acepto los Terminos y <br>Condiciones</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Crear cuenta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
