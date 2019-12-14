@@ -266,20 +266,20 @@
     </footer>
     <!-- Modal -->
     <div class="modal fade" id="modalogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <img src="img/logo.png" alt="RoundTrip" width="150px" height="35px">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <div class="col-auto">
                         <label class="sr-only" for="inlineFormInputGroup">Username</label>
                         <div class="input-group mb-2">
                             <div class="input-group-prepend">
-                            <div class="input-group-text">@</div>
+                                <div class="input-group-text">@</div>
                             </div>
                             <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
                         </div>
@@ -294,12 +294,12 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-primary">Iniciar sesion</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Iniciar sesion</button>
                 </div>
             </div>
-            </div>
         </div>
+    </div>
     <!-- /Modal Login -->
     <!-- Modal (paso 1 del registro)-->
     <div class="modal fade" id="modalregistro" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -326,11 +326,11 @@
                                         <div class="input-group-prepend">
                                              <span class="input-group-text" id="inputGroupPrepend3">@</span>
                                         </div>
-                                            <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required>
+                                        <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required>
                                         <div class="invalid-feedback">
                                         Please choose a username.
                                          </div>
-                                </div>
+                                    </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Password</label>
                                     <input type="password" class="form-control" id="exampleInputPassword1">
@@ -345,11 +345,12 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
                     </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                    <button href="#modalconfirm" type="button" class="btn btn-primary" data-toggle="modal">Siguiente</button>
+                    <button id="modal-registro-paso-1" href="#modalconfirm" type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal">Siguiente</button>
                 </div>
             </div>
         </div>
@@ -379,7 +380,7 @@
                         <i class="fas fa-upload" style= "font-size: 36px;"></i>
                      </div>
                      <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck    1">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">He leído terminos y acepto los Terminos y <br>Condiciones</label>
                     </div>
                 </div>
@@ -391,9 +392,5 @@
         </div>
     </div>
     <!-- /Modal 2 -->
-    
-
-
 </body>
-
 </html>
